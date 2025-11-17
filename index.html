@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🥁Drum Kit</h1>
+
+<div class="drum-container">
+    <div class="drum" onclick="playSound('kick')">
+        <img src="">
+        kick
+    </div>
+    <div class="drum" onclick="playSound('snare')">
+        <img src="">
+        Snare
+    </div>
+    <div class="drum" onclick="playSound('hihat')">
+        <img src="">
+        Hi-Hat
+    </div>
+    <div class="drum" onclick="playSound('tom')">
+        <img src="">
+        Tom
+    </div>
+    <div class="drum" onclick="playSound('crash')">
+        <img src="">
+        Crash
+    </div>
+</div>
+
+<audio id="kick"  src="./sounds/tr909-kick-drum-241402.mp3"></audio>
+<audio id="snare" src="./sounds/snare-112754.mp3"></audio>
+<audio id="hihat" src="./sounds/kathetroid-hat-96057.mp3"></audio>
+<audio id="tom"   src="./sounds/floor-tom-2-87286.mp3"></audio>
+<audio id="crash" src="./sounds/tr707-crash-cymbal-241376.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
